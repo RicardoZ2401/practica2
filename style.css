@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  width: 100%;
+  background: cadetblue;
+}
+#btn-menu {
+  display: none;
+}
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid red;
+}
+header label:hover {
+  cursor: pointer;
+  background: #088a85;
+}
+.menu ul {
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  display: flex;
+}
+.menu li:hover {
+  background: #2b617d;
+}
+.menu li a {
+  display: block;
+  padding: 14px 20px;
+  border-right: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+img {
+  width: 17%;
+
+  float: right;
+  margin-top: -49px;
+  margin-right: 5px;
+}
+.contenido {
+  margin-top: 0px;
+  background-image: url(malla.jpg);
+  color: white;
+  font-size: 10px;
+  padding: 200px;
+}
